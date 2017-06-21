@@ -1,0 +1,62 @@
+#nameCompany,#slogan {
+  text-align: center;
+}
+#stores {
+  text-align: right;
+  width: 314px;
+  border: 3px #9E9E9E;
+  padding: 18px;
+  border-top: solid black;
+  border-left: solid black;
+  border-right: solid black;
+  border-bottom: solid black;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+#fish {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+#history {
+  left: 450px;
+  bottom: 220px;
+  font-weight: 800;
+  font-size: 24px;
+  padding-top: 50px;
+  padding: 2%;
+  width: 79%;
+}
+#market {
+  border-radius: 8px;
+  text-align: center;
+  display: block;
+  margin: auto;
+
+}
+
+#link {
+  text-align: right;
+}
+body {
+  background-color: #DE4E4E;
+}
+/* CSS for Table */
+
+body {
+  font: normal medium/1.4 sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  padding: 0.25rem;
+  text-align: left;
+  border: 2px solid #ccc;
+}
+tbody tr:hover {
+  background: yellow;
+}
