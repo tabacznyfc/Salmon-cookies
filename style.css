@@ -1,5 +1,10 @@
+#header {
+  background-color: F2550E;
+}
+
 #nameCompany,#slogan {
   text-align: center;
+  font-family: 'Pacifico', cursive;
 }
 #stores {
   text-align: right;
@@ -13,6 +18,7 @@
   text-align: center;
   display: block;
   margin: auto;
+  font-family: 'Pacifico', cursive;
 }
 #fish {
   text-align: center;
@@ -24,10 +30,11 @@
   left: 450px;
   bottom: 220px;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 18px;
   padding-top: 50px;
   padding: 2%;
   width: 79%;
+  font-family: 'Pacifico', cursive;
 }
 #market {
   border-radius: 8px;
@@ -37,26 +44,20 @@
 
 }
 
+
 #link {
-  text-align: right;
+  text-align: center;
 }
-body {
-  background-color: #DE4E4E;
-}
-/* CSS for Table */
 
 body {
-  font: normal medium/1.4 sans-serif;
+  background-color: white;
+
 }
-table {
-  border-collapse: collapse;
-  width: 100%;
+
+
+#tableName {
+  font-family: 'Vidaloka', serif;
 }
-th, td {
-  padding: 0.25rem;
-  text-align: left;
-  border: 2px solid #ccc;
-}
-tbody tr:hover {
-  background: yellow;
+#copyRight {
+  text-align: center;
 }
