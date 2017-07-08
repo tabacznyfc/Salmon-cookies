@@ -1,5 +1,7 @@
 #header {
-  background-color: F2550E;
+  background-color: lemonchiffon;
+  border-bottom-style: inset;
+  border-bottom-width: 20px;
 }
 
 #nameCompany,#slogan {
@@ -54,10 +56,24 @@ body {
 
 }
 
-
 #tableName {
   font-family: 'Vidaloka', serif;
 }
 #copyRight {
   text-align: center;
+  background: lemonchiffon;
+}
+
+#clothes {
+  isplay: inline-block;
+  vertical-align:top;
+  width: 44%;
+  padding: 0% 2%;
+
+}
+
+#right-content {
+  float: right;
+  margin-left: 80%;
+    margin-top: -45%;
 }

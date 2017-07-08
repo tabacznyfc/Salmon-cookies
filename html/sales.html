@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Cookie Sales</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
   </head>
   <body>
     <header id="header">
@@ -12,13 +12,12 @@
       <ul>
       <a href="sales.html"></a><button>Sales</button>
       <a href="index.html"></a><button>Home</button>
-
       </ul>
       </nav>
     </header>
 
     <table id ="salesTable"></table>
-    <form id="form">
+    <form id="addStore">
     <fieldset>
     <legend> Add a Store</legend>
         <label> Store Name:
@@ -33,9 +32,9 @@
       <label> Average Cookies:
         <input type="text" id="avgCookie">
       </label> <br>
-   <input type="submit" value="Add New Store">
+   <button type="submit" value="addStoreButton" name="button">Add new store</button>
        </fieldset>
-  </form>
+    </form>
 
 
     <script src="../app.js" type="text/javascript"></script>
